@@ -1,12 +1,17 @@
+import CalendlyBox from "./CalendlyBox";
 import NewsletterBox from "./NewsletterBox";
 
 const Contact = () => {
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
-        <div className="-mx-4 flex flex-wrap">
+        <div className="-mx-4 flex flex-wrap justify-center">
           <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
             <NewsletterBox />
+          </div>
+          <div className='text-2xl py-8'><p>- OR -</p></div>
+          <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
+            <CalendlyBox />
           </div>
         </div>
       </div>
