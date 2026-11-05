@@ -27,12 +27,12 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Helping your business feel more confident about your finances
                 </p>
                 <div className="flex items-center">
+                {/* Facebook Link */}
                   <a
-                    href="/"
+                    href="http://www.facebook.com"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -51,7 +51,8 @@ const Footer = () => {
                       />
                     </svg>
                   </a>
-                  <a
+                  {/* twitter link */}
+                  {/* <a
                     href="/"
                     aria-label="social-link"
                     target="_blank"
@@ -72,8 +73,9 @@ const Footer = () => {
                         fill="currentColor"
                       />
                     </svg>
-                  </a>
-                  <a
+                  </a> */}
+                  {/* youtube link */}
+                  {/* <a
                     href="/"
                     aria-label="social-link"
                     target="_blank"
@@ -88,9 +90,10 @@ const Footer = () => {
                     >
                       <path d="M17.5058 2.07119C17.3068 1.2488 16.7099 0.609173 15.9423 0.395963C14.5778 7.26191e-08 9.0627 0 9.0627 0C9.0627 0 3.54766 7.26191e-08 2.18311 0.395963C1.41555 0.609173 0.818561 1.2488 0.619565 2.07119C0.25 3.56366 0.25 6.60953 0.25 6.60953C0.25 6.60953 0.25 9.68585 0.619565 11.1479C0.818561 11.9703 1.41555 12.6099 2.18311 12.8231C3.54766 13.2191 9.0627 13.2191 9.0627 13.2191C9.0627 13.2191 14.5778 13.2191 15.9423 12.8231C16.7099 12.6099 17.3068 11.9703 17.5058 11.1479C17.8754 9.68585 17.8754 6.60953 17.8754 6.60953C17.8754 6.60953 17.8754 3.56366 17.5058 2.07119ZM7.30016 9.44218V3.77687L11.8771 6.60953L7.30016 9.44218Z" />
                     </svg>
-                  </a>
+                  </a> */}
+                  {/* linkedin link */}
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/in/cassandrapaulson/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -109,12 +112,12 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+              <div className="mb-12 lg:mb-16 flex">
+                {/* <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Useful Links
-                </h2>
-                <ul>
+                </h2> */}
+                {/* <ul>
                   <li>
                     <Link
                       href="/blog"
@@ -139,9 +142,23 @@ const Footer = () => {
                       About
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
+                <Image
+                  src="/images/brands/intuit-bookkeeping-certification.png"
+                  alt="logo"
+                  width={240}
+                  height={240}
+                  className="w-full"
+                />
+                <Image
+                  src="/images/brands/intuit-quickbooks-certification-level-1.png"
+                  alt="logo"
+                  width={240}
+                  height={240}
+                  className="w-full"
+                />
               </div>
-            </div> */}
+            </div>
 
             {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
